@@ -1,0 +1,1 @@
+{"required":true,"minVersion":"0.8","package":"cn.serversync.mixin","compatibilityLevel":"JAVA_21","mixins":["ConnectionMixin"],"client":["ConnectMixin"],"injectors":{"defaultRequire":1}}

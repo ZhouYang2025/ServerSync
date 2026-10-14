@@ -1,0 +1,13 @@
+.gradle/
+.gradle-user/
+build/
+run/
+*.log
+dist/
+.tools/
+task_plan.md
+findings.md
+progress.md
+serversync-client/
+serversync-server/
+serversync-backups/

@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="serversync"
+version="1.1.2"
+displayName="ServerSync"
+authors="wudi"
+description='''Synchronize trusted server mods before connecting, then require a restart.'''
+[[mixins]]
+config="serversync.mixins.json"
+[[dependencies.serversync]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.219,21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.serversync]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
